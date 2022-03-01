@@ -1,0 +1,16 @@
+name: "Hello Actions"
+description: "greet someone"
+author: "jgarciacotado@gmail.com"
+
+inputs:
+  MY_NAME: "Javi"
+  required: true
+  default: "anonymous"
+  
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "mic"
+  color: "purple"
